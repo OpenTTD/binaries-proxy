@@ -1,13 +1,9 @@
 notifications:
-  push:
+  global:
     irc:
-      - openttd
-      - openttd.notice
+    - openttd
+    - openttd.notice
+
   pull-request:
-    irc:
-      - openttd
-      - openttd.notice
   issue:
-    irc:
-      - openttd
-      - openttd.notice
+  tag-created:
